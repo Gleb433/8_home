@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F3F3F3;
+    /* background-image: url(./images/Rectangle\ 7.svg); */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 145px;
+    
+}
+
+header {
+    height: 125px;
+    background-image: url(./images/Rectangle\ 6.svg);
+    /* background-repeat: no-repeat; */
+    
+    background-size: contain;
+    padding-top: 37.5px;
+}
+
+.elips {
+    position: absolute;
+    right: 16px;
+    top: 0px;
+}
+
+.kebab {
+    display: flex;
+    align-items: center;
+}
+
+.kebab-logo {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 32px;
+}
+
+.nav {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    z-index: 2;
+}
+
+.link {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.language-select {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.elips-1 {
+    position: absolute;
+    top: 361.5px;
+    right: 0%;
+    height: 721px;
+}
+
+.elips-2 {
+    position: absolute;
+    height: 1001px;
+    bottom: 0%;
+    top: 111px;
+    left: 153px;
+    z-index: 0;
+}
+
+.black {
+    height: 805px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.registr {
+    background-color: #fff;
+    width: 464px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background: #FFF;
+    gap: 32px;
+    padding: 32px;
+    z-index: 1;
+    box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.10), 0px 3px 6px 0px rgba(29, 30, 38, 0.10);
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.registr-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.registr-input {
+    width: 100%;
+    height: 65px;   
+    background-color: #F8F8F8;
+    text-indent: 19px;
+    border-radius: 7px;
+    border: 1px solid #DADADA;
+}
+
+.button-in {
+    height: 54px;
+    border-radius: 100px;
+    background-color: #C2FBD7;
+    box-shadow: 0px 16px 32px 0px rgba(44, 187, 99, 0.15), 0px 8px 16px 0px rgba(44, 187, 99, 0.15), 0px 4px 8px 0px rgba(44, 187, 99, 0.15), 0px 2px 4px 0px rgba(44, 187, 99, 0.15), 0px 1px 2px 0px rgba(44, 187, 99, 0.15), 0px -25px 18px -14px rgba(44, 187, 99, 0.20) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+.link-1 {
+    width: 288px;
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 18px;
+    align-self: center;
+
+}
+
+.first {
+    grid-column: span 3;
+}
+
+.link-for {
+    color: #008000;
+    justify-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.subscriptions {
+    display: flex;
+    gap: 7px;
+    align-self: center;
+}
+
+.subscriptions-no {
+    color: #9B9B9B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.footer {
+    padding: 41.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.footer-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+    gap: 18px;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    grid-row: 1/3;
+}
+
+.kebab-logo {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 32px;
+}
+
+.kebab {
+    display: flex;
+    align-items: center;
+}
+
+.kebab-logo {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 32px;
+}
+
+.helps {
+    display: flex;
+    gap: 24px;
+}
+
+.help {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
